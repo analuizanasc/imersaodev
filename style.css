@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  position: absolute;
+  width: 1440px;
+  height: 180px;
+  left: 0px;
+  top: 0px;
+  background: #fdd8d8;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+
+.foto-perfil {
+  border-radius: 400px;
+  max-height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.titulo h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 40.5px;
+  margin-left: 20px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #796f6f;
+  margin-left: 20px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #4ea141;
+  border-radius: 100px;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  padding: 30px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark .container {
+  background: #333439;
+  border-radius: 20px;
+}
+
+.dark .projetos {
+  color: white;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #333439;
+  border: 2px solid #f7f7f7;
+}
